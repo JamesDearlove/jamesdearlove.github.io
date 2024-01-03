@@ -1,5 +1,4 @@
-# baseURL: "https://jimmyd.dev/"
-baseURL: "https://test-jimmyd.pages.dev/"
+baseURL: "https://jimmyd.dev/"
 languageCode: "en-au"
 title: "James Dearlove"
 theme: ["github.com/adityatelange/hugo-PaperMod"]
