@@ -1,0 +1,57 @@
+# baseURL: "https://jimmyd.dev/"
+baseURL: "https://test-jimmyd.pages.dev/"
+languageCode: "en-au"
+title: "James Dearlove"
+theme: ["github.com/adityatelange/hugo-PaperMod"]
+
+paginate: 10
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+mainSections: ["posts", "news", "talks"]
+
+menu:
+  main:
+  - identifier: about
+    name: About
+    title: About
+    url: /about/
+    weight: 1
+  - identifier: talks
+    name: Talks
+    title: Talks
+    url: /talks/
+    weight: 2
+  - identifier: news
+    name: News
+    title: News
+    url: /news/
+    weight: 3
+
+params:
+  author: "James Dearlove"
+
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowFullTextinRSS: true
+
+  homeInfoParams:
+      Title: > 
+        [James Dearlove](/about/)
+      Content: >
+        Senior Software Developer at the [Department of Environment, Science and Innovation, Queensland](https://science.des.qld.gov.au) 
+          
+        Software nerd • Lover of animation • he/him
+        
+  socialIcons:
+      - name: "mastodon"
+        url: "https://hachyderm.io/@jimmyd"
+      - name: github
+        url: "https://github.com/JamesDearlove"
+      - name: "linkedin"
+        url: "https://www.linkedin.com/in/james-dearlove-1490a316a/"
