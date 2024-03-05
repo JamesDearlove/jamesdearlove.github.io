@@ -26,11 +26,7 @@ menu:
     title: Talks
     url: /talks/
     weight: 2
-  - identifier: news
-    name: News
-    title: News
-    url: /news/
-    weight: 3
+
 
 params:
   author: "James Dearlove"
