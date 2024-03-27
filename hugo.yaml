@@ -48,5 +48,4 @@ params:
         url: "https://hachyderm.io/@jimmyd"
       - name: github
         url: "https://github.com/JamesDearlove"
-      - name: "linkedin"
-        url: "https://www.linkedin.com/in/james-dearlove-1490a316a/"
+
