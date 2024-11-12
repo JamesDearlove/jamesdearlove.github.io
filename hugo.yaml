@@ -3,7 +3,8 @@ languageCode: "en-au"
 title: "James Dearlove"
 theme: ["github.com/adityatelange/hugo-PaperMod"]
 
-paginate: 10
+pagination:
+  pagerSize: 10
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -39,13 +40,14 @@ params:
       Title: > 
         [James Dearlove](/about/)
       Content: >
-        Senior Software Developer at the [Department of Environment, Science and Innovation, Queensland](https://science.des.qld.gov.au) 
+        Senior Software Developer at the [Department of Environment, Tourism, Science and Innovation](https://science.desi.qld.gov.au) 
           
         Software nerd • Lover of animation • he/him
         
   socialIcons:
+      - name: "bluesky"
+        url: "https://bsky.app/profile/itsjimmyd.bsky.social"
       - name: "mastodon"
         url: "https://hachyderm.io/@jimmyd"
       - name: github
         url: "https://github.com/JamesDearlove"
-
